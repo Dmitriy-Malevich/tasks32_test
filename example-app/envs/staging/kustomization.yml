@@ -7,7 +7,7 @@ namePrefix: staging-
 resources:
 - ../../base
 
-patchesStrategicMerge:
-- version.yml
+patches:
+  path: version.yml
 
 
