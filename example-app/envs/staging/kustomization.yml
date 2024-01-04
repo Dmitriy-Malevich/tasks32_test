@@ -8,6 +8,6 @@ resources:
 - ../../base
 
 patches:
-  path: version.yml
+- path: version.yml
 
 
