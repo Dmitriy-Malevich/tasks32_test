@@ -5,7 +5,7 @@ namespace: staging
 namePrefix: staging-
 
 resources:
-- ../../base
+- ../../base/
 
 patches:
 - path: version.yml
