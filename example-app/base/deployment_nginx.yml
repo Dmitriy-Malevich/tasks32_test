@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx22
-        image: ghcr.io/dmitriy-malevich/tasks32:1.0.1
+        image: ghcr.io/dmitriy-malevich/tasks32:1.0
         livenessProbe:
           httpGet:
             path: index.html
